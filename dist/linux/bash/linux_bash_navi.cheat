@@ -1,4 +1,4 @@
-% cheatsnavi, 
+% navi, cheats
 
 # Use raw cheats for development
 if ! [ -v NAVI_ORIGINAL_PATH ]; then

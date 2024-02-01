@@ -1,4 +1,4 @@
-% cheatsnavi, 
+% navi, cheats
 
 # Use raw cheats for development
 if ($env | get NAVI_ORIGINAL_PATH -i | is-empty) {

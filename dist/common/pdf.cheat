@@ -1,4 +1,4 @@
-% ghostscriptpdf, 
+% pdf, ghostscript
 
 # Join pdfs in one file
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dAutoRotatePages=/None -sOutputFile=<out_file_name> <files>
