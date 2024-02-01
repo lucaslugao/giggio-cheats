@@ -74,7 +74,7 @@ jobs:
           git config --global user.name 'Github Actions'
           git config --global user.email 'giggio@users.noreply.github.com'
           git clean -fdx
-          git switch -c built
+          git checkout built
           echo "Merging..."
           git merge -X theirs main
           rm dist -rf
@@ -85,5 +85,5 @@ jobs:
             echo "No changes to commit or push."
           else
             git commit -m "Automated build"
-            git push -u origin built
+            git push origin built
           fi
