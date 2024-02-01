@@ -64,14 +64,6 @@ systemctl list-dependencies <unit>
 # List unit dependents
 systemctl list-dependencies --reverse <unit>
 
-
-
-
-
-
-
-
-
 % systemd user
 
 ; variables
